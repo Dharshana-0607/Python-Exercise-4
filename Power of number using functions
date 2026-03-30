@@ -1,0 +1,7 @@
+def powerof(x,y):
+   p=x**y
+   return p
+a=int(input("Enter base:"))
+b=int(input("Enter power:"))
+q=powerof(a,b)
+print "Answer is",q
